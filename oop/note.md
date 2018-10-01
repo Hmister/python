@@ -38,17 +38,22 @@
     - 成员属性定义可以直接使用变量赋值，如果没有值，许使用None
     - 案例 01.py
 - 实例化类
+
     - 变量 = 类名() # 实例化了一个对象
 - 访问对象成员
     - 使用点操作符
         - obj.成员属性名
         - obj.成员方法
-    - 可以使用默认内置变量检测类和对象的 所有成员
-       - 对象所有成员检查
-            - dict
+    - 可以通过默认内置变量检查类和对象的所有成员
+        -对象所有成员检查
+        
+                # dict前后各有两个下划线
+                class_name.__dict__
+            
+            
 # 3.anaconda 基本使用
 - anaconda 主要是一个虚拟环境管理器
 - 还是一个安装包管理器
 - conda List: 显示anaconda安装的包
 - conda env list: 显示anaconda的虚拟环境列表
-- conda create -n xxx python=3.6:创建python版本为3.6的虚拟环境
+- conda create -n xxx python=3.6:创建python版本为3.6的虚拟环境，名称为xxx
