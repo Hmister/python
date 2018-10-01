@@ -57,3 +57,9 @@
 - conda List: 显示anaconda安装的包
 - conda env list: 显示anaconda的虚拟环境列表
 - conda create -n xxx python=3.6:创建python版本为3.6的虚拟环境，名称为xxx
+
+# 4.类和对象的成员分析
+- 类和对象都可以存储成员，成员可以归类所有，也可以归对象所有
+- 类存储成员使用的是与类关联的一个对象
+- 独享存储成员是存储在当前对象中
+
