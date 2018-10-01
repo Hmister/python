@@ -27,5 +27,5 @@ print(yueyue.name)
 print(yueyue.age)
 # 注意成员函数的调用没有传递竟如参数
 yueyue.doHomework()
-print(123)
+
 
