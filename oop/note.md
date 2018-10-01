@@ -82,7 +82,27 @@
 - 多态
 
 ## 6.1 封装
-
+- 封装就是对对象的成员进行访问限制
+- 封装的三个级别：
+    - 公开，public
+    - 受保护的，protected
+    - 私有的，private
+    - public,private,protected不是关键字
+- 判别对象的位置
+    - 对象内部
+    - 对象外部
+    - 子类中
+- 私有
+    - 私有成员是最高级别的封装，只能在当前类或者对象中访问
+    - 在成员前面添加两个下划线即可
+    
+                class person():
+                    # name是公有的成员
+                    name = "linying"
+                    #__age就是私有成员
+                    __age = 18
+    - Python的私有不是真的私有，是一种name mangLing的改名策略
+    - 可以使用对象.__classname_attributename访问
 
 
 
